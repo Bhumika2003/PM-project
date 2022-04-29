@@ -1,0 +1,10 @@
+<template>
+    <ul>
+      <template for:each={records} for:item="record">
+        <li key = {record.name}></li>
+        {record.name}, {record.age}, {record.city}
+        
+      </template>
+      <h3>{name}</h3>
+    </ul>
+</template>
